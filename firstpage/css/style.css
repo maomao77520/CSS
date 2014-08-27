@@ -1,0 +1,81 @@
+/* CSS Document */
+*{ margin:0px; padding:0px; border:0px;}
+a{ text-decoration:none; color:#78858B; }
+.clear{ clear:both;}
+.nav-list:after,.main-navlist:after{ display:block; content:""; height:0; clear:both; visibility:hidden;}
+
+#container{ 
+    width:1024px; 
+	height:768px; 
+	margin:0px auto;
+    background:url(../img/background.png);
+	background-repeat:no-repeat;  
+	 height:768px;}
+#title h1{ 
+    display:block; 
+	width:236px; 
+	height:79px; 
+	text-indent:-9999px;}
+#title h1 a{ 
+    display:block; 
+	background:url(../img/logo.png); 
+	width:236px; 
+	height:79px;}
+#content{ 
+    background:url(../img/content_background.png); 
+	width:939px; 
+	height:470px;
+	margin:20px auto;
+	position:relative;}
+#content-text{
+    width:302px;
+	height:385px;
+	position:absolute;
+	top:30px;
+	left:50px;
+	font-size:14px;
+	line-height:20px;}
+.nav-list{ width:500px; margin-right:50px;}
+.nav-list li{  
+	float:right; 
+	margin-right:20px;
+	font-size:12px;
+	list-style-position:inside;
+}
+
+.main-navlist li{
+    font-size:16px;
+	font-weight:bold;
+	list-style:none;
+	float:right;
+	width:110px;
+	text-align:left;
+	}
+.en-navlist li{
+    font-size:12px;
+	margin-top:0px;
+	line-height:12px;
+}
+#title{ float:left;}
+.navigation{ float:right; margin-right:50px;}
+.header{ float:right;}
+#top{ clear:right; padding-top:20px; height:80px;}
+#footer{ 
+	background:url(../img/footer-text.png);
+	opacity:0.6;
+    filter:Alpha(opacity=60);
+	height:68px; 
+	width:100%;
+	margin-top:100px;}
+	
+#detail-pic{ background:url(../img/picture1.png); width:149px; height:83px; float:right;}
+#service{ background:url(../img/picture2.png); width:294px; height:132px;}
+.content-text-box{ width:294px; height:132px;}
+#text-left{ width:145px; float:left;}
+li .date{ float:right; margin-right:3px;}
+#new-title{ color:#4473AD;}
+.text-title{  width:145px; float:left;}
+#room-title{ color:#93B6CC;}
+.more { width:146px; height:20px; background:#4473AD; float:right; color:#FFFFFF; text-align:right; padding-right:3px;}
+.roomstyle{ background:#93B6CC;}
+
