@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>两栏布局左栏固定宽度</title>
+<style type="text/css">
+.header,.footer,.container{ border:1px solid gray; margin:10px 0;}
+.container{ width: 100%; overflow: hidden;}
+.left{ width: 250px; background: yellow; float:left}
+.right{ margin-left:250px; background: blue;}
+.q{padding-bottom: 9999px; margin-bottom: -9999px;}
+
+/*.container{ width:100%; margin-left:250px;}
+.left{ width:250px; float:left; margin-left:-250px; background:yellow;}
+.right{ width:100%; background:blue;}*/
+
+</style>
+</head>
+<body>
+<div class="header">header</div>
+<div class="container">
+   <div class="left q">
+      <div>title</div> 
+   </div>
+   <div class="right q">
+      <div>title</div>
+	  <ul>
+	      <li>test test test</li>
+		  <li>test test test</li>
+		  <li>test test test</li>
+		  <li>test test test</li>
+		  <li>test test test</li>
+		  <li>test test test</li>
+		  <li>test test test</li>
+		  <li>test test test</li>
+	  </ul>
+   </div>
+</div>
+<div class="footer">footer</div>
+</body>
+</html>

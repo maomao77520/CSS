@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>三栏布局左右固定宽度</title>
+<style type="text/css">
+.header,.footer,.container{ border:1px solid gray; margin:10px 0;}
+.container{ width: 100%; overflow: hidden;}
+.left{ width: 250px; background: yellow;float: left;}
+.right{ width: 250px; background: yellow; float: right;}
+.main{ margin:0 250px; background: blue;}
+.q{padding-bottom: 9999px; margin-bottom: -9999px; }
+</style>
+</head>
+
+<body>
+<div class="header">header</div>
+<div class="container">
+   <div class="left q">leftleftleftle ftleftleftleftle ftleftleftleftleftlef tleftleftlef tleftle ftleftleft leftlef leftleft</div>
+   <div class="right q">right</div>
+   <div class="main q">center</div>
+</div>
+<div class="footer">footer</div>
+</body>
+</html>
