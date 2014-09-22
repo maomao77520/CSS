@@ -1,22 +1,22 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>三列布局</title>
-
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>layout</title>
 <style type="text/css">
 .wrap{width:100%;overflow:hidden;}
 .left{background:#E3E5E4; width:100px; float:left; }
 .center{background:yellow; width:50%; margin-left:100px;}
 .right{background:#64B2E0; float:right; width:50%; margin-right: -50px; 
-position:relative; z-index:1;}/*margin-right使其与center有重叠，right应该在上层*/
+position:relative; z-index:1;}/*margin-right*/
 .qh{margin-bottom:-10000px;padding-bottom:10000px;}
 ul{ margin:0;}
 
 </style>
 </head>
-<body>
 
-<p>三栏等高布局，左栏固定宽度，右两栏等宽自适应宽度</p>
+<body>
+<p>三栏布局，左边固定宽度，右边两栏自适应等宽，等高</p>
 <div class="wrap">
   	<div class="left qh">left</div>
   	<div class="right qh">right</div>
@@ -29,7 +29,5 @@ ul{ margin:0;}
 	   </ul> 
     </div>
 </div>
-
-
 </body>
 </html>
